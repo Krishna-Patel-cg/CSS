@@ -1,0 +1,41 @@
+button{
+    color: red;
+    display: inline;
+    font-weight: bolder;
+    margin: 2px 100px;
+    padding: 5px;
+}
+#btn1:hover{
+    border: 3px solid red;
+    box-shadow:20px solid green;
+    margin: 30px 40px;
+}
+#btn2:hover{
+    border: 3px solid rgb(0, 119, 255);
+    box-shadow:20px solid green;
+}
+#btn3:hover{
+    border: 3px solid rgb(255, 0, 149);
+    box-shadow:20px solid green;
+}
+#btn4:hover{
+    border: 3px solid rgb(4, 255, 222);
+    box-shadow:20px solid green;
+}
+
+
+#btn1{
+    border: 3px solid red;
+    box-shadow:20px solid green;
+}
+#btn2{
+    border: 3px solid rgb(0, 119, 255);
+    box-shadow:20px solid green;
+}
+#btn3{
+    border: 3px solid rgb(255, 0, 149);
+    box-shadow:20px solid green;
+}
+#btn4{
+    margin: 200px 60px 100px 30px;
+}

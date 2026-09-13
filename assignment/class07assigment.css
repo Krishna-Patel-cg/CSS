@@ -1,0 +1,45 @@
+.main1{
+    border:7px solid red;
+}
+.main{
+    border: solid rgb(255, 255, 255);
+    display: flex;
+    gap: 18%;
+    /* width:1500px ; */
+    margin: auto;
+
+}
+.lib{
+    border: solid white;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+.middle{
+    border: solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    gap: 30px;
+}
+.search{
+    border: solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    gap: 20px;
+}
+.img{
+    border-radius: 50%;
+    display: flex;
+    text-decoration: none;
+    gap: 10px;
+}
+.link1{
+    text-decoration: none;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+}
