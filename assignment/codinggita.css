@@ -541,11 +541,11 @@
 }
 .squarenormalcse{
     border: solid;
-    height: 50px;
+    height: 40px;
     display: flex;
     border-radius: 15px;
     margin: 2px 20px;
-    width: 70px;
+    width: 50px;
 }
 .nc{
     border: solid;
@@ -622,7 +622,7 @@
 }
 .smain{
     border: solid yellow;
-    height: 420px;
+    height: 410px;
     display: flex;
     width: 950px;
     margin: auto;
@@ -648,15 +648,57 @@
     border-top-right-radius: 20px;
 }
 .swaminarayanexplore{
-    border: solid;
+    border: solid gray;
     height: 200px;
     width: 450px;
+    /* display: flex; */
 }
 .swaminarayantext{
     border: solid;
+    height: 40px;
+    width: 440px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 2px 15px;
+}
+.fontsu{
+    font-weight: bolder;
+    font-size: 25px;
+    display: flex;
+    margin-bottom: 30px;
 }
 .swaminarayankalol{
     border: solid;
+    height: 40px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    margin: 2px 15px;
+    gap: 10px;
+}
+.swaminarayancourse{
+    border: solid;
+    height: 40px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    margin: 2px 15px;
+    gap: 10px;
+}
+.suexplore{
+    border: solid;
+    height: 38px;
+    width: 130px;
+    margin: 2px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.susvg{
+    display: flex;
+    /* margin: auto; */
+    margin: 2px 25px;
 }
 .swarnim{
     border: solid rgb(23, 0, 128);
@@ -679,4 +721,254 @@
     border: solid;
     height: 200px;
     width: 450px;
+}
+.process{
+    border: solid;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    margin: auto;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.processbold{
+    border: solid;
+    height: 90px;
+    width: 700px;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 75px;
+    
+}
+.follow{
+    border: solid;
+    height: 30px;
+    width: 600px;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.step{
+    border: solid;
+    height: 60px;
+    width: 250px;
+    /* display: flex; */
+    margin: 2px 100px;
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 55px;
+}
+#st{
+    /* border: solid; */
+    height: 60px;
+    width: 250px;
+    /* display: flex; */
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 55px;
+}
+.application{
+    border: solid;
+    height: 350px;
+    width: 1100px;
+    margin: 2px 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.apl{
+    border: solid;
+    width: 600px;
+    height: 60px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+    gap: 10px;
+}
+.fill{
+    border: solid;
+    width: 600px;
+    height: 50px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder
+}
+.smallfontapplication{
+    border: solid;
+    width: 900px;
+    height: 30px;
+    margin-left: 20px;
+}
+.list{
+    margin-left: 20px;
+}
+.follow{
+    border: solid;
+    height: 30px;
+    width: 600px;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.step02{
+    border: solid;
+    height: 60px;
+    width: 250px;
+    /* display: flex; */
+    margin: 2px 100px;
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 55px;
+}
+#st{
+    /* border: solid; */
+    height: 60px;
+    width: 250px;
+    /* display: flex; */
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 55px;
+}
+.application02{
+    border: solid;
+    height: 60px;
+    width: 1100px;
+    margin: 2px 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.apl{
+    border: solid;
+    width: 600px;
+    height: 60px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+    gap: 10px;
+}
+.steploginbottom{
+    border: solid;
+    /* width: 160px; */
+    border-radius: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    height: 50px;
+    width: 170px;
+}
+.Recommendations{
+    border: solid;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 140px;
+    height: 50px;
+    width: 240px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.portfolio{
+    border: solid;
+    height: 1500px;
+    margin-top: 70px;
+    display: flex;
+    gap: 15px;
+    width: 1200px;
+    margin: auto;
+}
+.ptop{
+    border: solid;
+    display: flex;
+    width: 1150px;
+    height: 330px;
+    gap: 15px;
+}
+.first{
+    border: solid;
+    height: 300px;
+    margin-top: 20px;
+    width: 400px;
+    border-radius: 20px;
+}
+.icon{
+    border: solid;
+    height: 60px;
+    display: flex;
+}
+.photo{
+    border: solid;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.namecom{
+    border: solid;
+    width: 200px;
+    height: 60px;
+    align-items: center;
+    text-justify: auto;
+}
+.name{
+    font-size: 15px;
+    /* font-weight: bolder; */
+    /* display: inline-block; */
+}
+.company{
+    display: flex;
+}
+.details{
+    border: solid;
+    height: 160px;
+}
+.view{
+    border: solid;
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 130px;
+    display: flex;
+    justify-items: center;
+    font-size: 15px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+}
+.imagep{
+    height: 50px;
+    border-radius: 50%;
+}
+.second{
+    border: solid;
+    height: 300px;
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.third{
+    border: solid;
+    height: 300px;
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 20px;
 }
