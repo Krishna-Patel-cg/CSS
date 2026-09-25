@@ -1,0 +1,41 @@
+.div{
+    border: solid;
+    width: 250px;
+    height: 400px;
+    display: ;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(natureimage1.jpg); */
+}
+.div img {
+    display: none;
+}
+.div:hover>img{
+    display: block;
+}
+.div+img{
+    display: none;
+}
+.div:hover+img{
+    display: block;
+}
+#inp:focus{
+outline: 5px dashed red;
+background-color: green;
+color: white;
+border: none;
+}
+.list li:first-child{
+    background-color: red;
+}
+
+.list1 li:last-child{
+    background-color: red;
+}
+
+.list2 li:nth-child(even){
+    background-color: green;
+}
+.list2 li:nth-child(odd){
+    background-color: rgb(0, 98, 128);
+}

@@ -1,0 +1,23 @@
+ul{
+    list-style: none;
+}
+
+/* ---- any character select do effect --- */
+/* [title*="j"]{
+    border: solid;     
+    background-color: red;
+} */
+
+
+  /* ---only start character select do effect ---- */
+/* [title^="ak"]{
+    border: solid;
+    background-color: red;
+} */
+
+
+/* --- only last character  select do effect --- */
+[title$="cj"]{
+    border: solid;
+    background-color: red;
+}

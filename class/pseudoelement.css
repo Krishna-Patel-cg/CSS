@@ -1,0 +1,50 @@
+ul{
+    list-style-type: none;
+}
+ul li:last-child{
+    background-color: red;
+}
+ul li:hover:after{
+    content: "★";
+    color: gold;
+}
+ul li:hover:before{
+    content: " →";
+}
+.div1{
+    border: 2px solid;
+    height: 500px;
+    width: 300px;
+    background-image: url(download\ \(4\).jpg);
+    background-size: cover;
+    position: relative;
+}
+.div1::after{
+    content: "";
+    /* top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px; */
+    position: absolute;
+    background-color: rgba(70,90,80, 0.4);
+    color: red;
+    inset: 0;
+}
+.div1:hover::after{
+    background-color: rgba(122,20,200, 0.4);
+}
+div::first-line{
+    color: blue;
+    font-weight: bolder;
+    font-size: 25px;
+}
+div::first-letter{
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: cursive;
+}
+div::selection{
+    color: white;
+    background-color: pink;
+}

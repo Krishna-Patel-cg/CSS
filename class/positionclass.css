@@ -56,8 +56,8 @@ h2 + p + p {
   color: green;
 }
 
-.banner ~ div ,h3 {
-  background: #f0f0f0;
+.banner ~ div ~ h3 {
+  background: #05d339;
 }
 /* .nav{
     border: solid;
