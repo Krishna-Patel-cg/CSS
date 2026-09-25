@@ -1,8 +1,8 @@
 .main1{
-    border:7px solid red;
+    /* border:7px solid red; */
 }
 .main{
-    border: solid rgb(255, 255, 255);
+    /* border: solid rgb(15, 14, 14); */
     display: flex;
     gap: 18%;
     /* width:1500px ; */
@@ -10,21 +10,25 @@
 
 }
 .lib{
-    border: solid white;
+    /* border: solid rgb(15, 14, 14); */
     display: flex;
     justify-content: center;
     width: 200px;
 }
 .middle{
-    border: solid white;
+    /* border: solid rgb(22, 21, 21); */
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 520px;
-    gap: 30px;
+    width: 560px;
+    gap: 20px;
+}
+.imd{
+    width: 100%;
+    border: solid;
 }
 .search{
-    border: solid white;
+    /* border: solid rgb(34, 32, 32); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,10 +40,18 @@
     display: flex;
     text-decoration: none;
     gap: 10px;
+    width: 100px;
 }
 .link1{
+    /* border: solid; */
     text-decoration: none;
     display: flex;
-    gap: 10%;
+    gap: 5%;
     justify-content: center;
+}
+.imz{
+    /* border: solid; */
+    height: 500px;
+    width: 100%;
+    background-image: url('class07assignmentcss.jpeg');
 }

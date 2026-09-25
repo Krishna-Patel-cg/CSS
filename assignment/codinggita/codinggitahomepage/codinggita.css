@@ -1,19 +1,41 @@
+/* *{ */
+    padding: 0px;
+    margin: 0px;
+}
+[class]{
+    border: solid;
+}
+
 .main{
-    border: solid red;
+    /* border: solid red; */
     width: 100%;
-    height: 10000px;
+    height: 9900px;
     /* display: flex; */
+    
+
 
 }
 .top{
-    border: solid;
+    /* border: solid; */
     height: 70px;
+    z-index: 1;
     display: flex;
     gap: 10px;
+    margin-bottom: 50px;
     width: 100%;
+    position: sticky;
+    top: 0px;
+    background-color: #5D21D1;
+}
+.toplink{
+    text-decoration: none;
+    color: white;
+}
+.dt{
+    color: white;
 }
 .codinggita{
-    border: solid;
+    /* border: solid; */
     height: 70px;
     display: flex;
     justify-content: center;
@@ -22,7 +44,7 @@
     gap: 30px;
 }
 .middletop{
-    border: solid;
+    /* border: solid; */
     display: flex;
     justify-content: center;
     width: 630px;
@@ -30,7 +52,7 @@
     gap: 30px;
 }
 .apply{
-    border: solid;
+    /* border: solid; */
     height: 70px;
     display: flex;
     width: 350px;
@@ -43,10 +65,35 @@
 }
 
 .india{
-    border: solid blue;
+    /* border: solid blue; */
     width: 100%;
     height: 100px;
+    margin-top: 50px;
     display: flex;
+}
+.vmain{
+    display: flex;
+    /* border: solid; */
+    height: 600px;
+}
+.vtext{
+    /* border: solid; */
+    height: 500px;
+}
+.vkhatubaba{
+    /* border: solid; */
+    height: 600px;
+    border-radius: 20px;
+}
+.video{
+    display: flex;
+    height: 490px;
+    border-radius: 30px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+#video{
+    border-radius: 20px;
 }
 #ind{
     font-size: 50px ;
@@ -55,13 +102,17 @@
     align-items:last baseline;
     gap: 30px;
     margin: 3px 40px;
+    color: #3F1198;
 }
 .per{
-    border: solid;
+    /* border: solid; */
     width: 600px;
     height: 60px;
     display: flex;
     margin: 3px 40px;
+    border-radius: 10px;
+    background-color: #3F1198;
+    color: #FACD42;
 }
 #pr{
     font-size: 35px ;
@@ -72,11 +123,12 @@
     margin: 0px 5px;
 }
 .program{
-    border: solid;
+    /* border: solid; */
     display: flex;
-    width: 800px;
+    width: 400px;
     height: 80px;
     margin: 3px 40px;
+    color: #541CBF;
 }
 #prog{
     font-size: 30px ;
@@ -87,11 +139,13 @@
 }
 
 .no{
-    border: solid;
+    /* border: solid; */
     width: 390px;
     height: 60px;
     display: flex;
     margin: 3px 40px;
+    background-color: #3F1198;
+    color: #FACD42;
 }
 #no{
     font-size: 30px ;
@@ -103,7 +157,7 @@
 }
 
 .secure{
-    border: solid green;
+    /* border: solid green; */
     width: 500px;
     margin: 3px 40px;
     display: flex;
@@ -116,7 +170,7 @@
 }
 
 .link1{
-    border:solid yellow;
+    /* border:solid yellow; */
     height: 50px;
     width: 500px;
     margin: 3px 40px;
@@ -128,25 +182,28 @@
 }
 #apply{
     text-decoration: none;
-    border: solid gold;
+    /* border: solid gold; */
     padding: 8px 8px;
     border-radius: 25px;
+    background-color: #F9CA3A;
     
 }
 
 #only{
     text-decoration: none;
-    border:solid rgb(0, 4, 255);
+    border:solid #F9CA3A;
      padding: 8px 8px;
     border-radius: 25px;
+    background-color: #F9CA3A;
 }
 
 #topapply{
     text-decoration: none;
-    border: solid gold;
+    border: solid #FFCC00;
     padding: 8px 8px;
     border-radius: 25px;
     margin: 2px 10px;
+    background-color: #FFCC00;
     
 }
 
@@ -155,13 +212,16 @@
     border:solid rgb(0, 4, 255);
      padding: 8px 8px;
     border-radius: 25px;
+    /* background-color: #F9CA3A; */
 }
 .job{
-    border: solid red;
+    /* border: solid red; */
     margin-top: 40px;
     height: 55px;
     display: flex;
     align-items: center;
+    background-color: #3F1198;
+    color: white;
     
 }
 #highest{
@@ -172,7 +232,7 @@
     margin-top: 33px;
 }
 .place2024{
-    border: solid gray;
+    /* border: solid gray; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,30 +245,31 @@
     
 }
 .mainpaid{
-    border: solid;
+    /* border: solid; */
     height: 140px;
     display: flex;
     text-align: center;
     gap: 10px;
+    background-color: #3F1198;
     justify-content: center;
     width: 1200px;
     margin: auto;
     border-radius: 20px;
 }
 .imagecoding{
-    border: solid;
+    /* border: solid; */
     display: flex;
     height: 80px;
     align-items: center;
     margin: auto;
 }
 .studentimage{
-    border: solid;
+    /* border: solid; */
     display: flex;
     width: 300px;
     text-align:center;
     margin: auto;
-    background-color: blue;
+    background-color: #3F1198;
     height: 110px;
     padding-top: 20px;
 }  
@@ -219,9 +280,11 @@
 
 }
 .paid{
-    border: solid;
+    /* border: solid; */
     width: 290px;
+    background-color: #3F1198;
     display: flex;
+    color: #FFCC00;
     border-radius: 20px;
 }
 #internship{
@@ -230,10 +293,11 @@
     display: flex;
     align-items:center;
     margin: auto;
+    /* border: solid; */
     /* margin-top: px; */
 }
 .maincart{
-    border:4px solid rgb(46, 110, 46);
+    /* border:4px solid rgb(46, 110, 46); */
     width:1000px ;
     display: flex;
     margin: auto;
@@ -241,7 +305,7 @@
     height: 450px;
 }
 .maincart1{
-    border: solid rgb(0, 247, 255);
+    /* border: solid rgb(0, 247, 255); */
     display:block;
     width: 470px;
     text-align: center;
@@ -250,7 +314,7 @@
     margin-left: 30px;
 }
 .maincart2{
-    border: solid blue;
+    /* border: solid #3F1198; */
     display: block;
     width: 470px;
     text-align: center;
@@ -297,7 +361,7 @@
     border-radius: 20px;
 }
 .year4f{
-    border: solid;
+    /* border: solid; */
     height: 60px;
     border-radius: 20px;
     display: flex;
@@ -318,15 +382,16 @@
     margin: auto;
 }
 .program1{
-    border: solid;
+    /* border: solid; */
     display: flex;
     margin: auto;
     margin-top: 110px;
     width: 170px;
     height: 40px;
+    color: gray;
 }
 .what{
-    border: solid;
+    /* border: solid; */
     display: flex;
     margin: auto;
     margin-top: 11px;
@@ -334,19 +399,20 @@
     justify-content: center;
     width: 800px;
     height: 70px;
+    color: #40119A;
 }
 #what1{
     font-size: 70px ;
     font-weight: bolder;
 }
 .note{
-    border: solid;
+    /* border: solid; */
     display: flex;
     margin: auto;
     width: 450px;
 }
 .dash{
-    border: solid;
+    /* border: solid; */
     height: 200px;
     display: flex;
     align-items: center;
@@ -357,10 +423,10 @@
     margin: auto;
 }
 .flag{
-    border: solid;
-    border-left: dashed;
-    border-right: dashed;
-    border-bottom: dashed;
+    /* border: solid; */
+    border-left: dashed #F7C83C;
+    border-right: dashed #F7C83C;
+    border-bottom: dashed #F7C83C;
     border-top: none;
     display: block;
     border-bottom-right-radius: 20px;
@@ -373,11 +439,11 @@
     
 }
 .book{
-    border: solid;
+    /* border: solid; */
     border-left: none;
     border-right: none;
     border-bottom: none;
-    border-top: dashed;
+    border-top: dashed #F7C83C;
     display: block;
     /* border-bottom-right-radius: 20px; */
     /* border-bottom-left-radius: 20px; */
@@ -388,10 +454,10 @@
     width: 200px;
 }
 .computer{
-    border: solid;
-    border-left: dashed;
-    border-right: dashed;
-    border-bottom: dashed;
+    /* border: solid; */
+    border-left: dashed #F7C83C;
+    border-right: dashed #F7C83C;
+    border-bottom: dashed #F7C83C;
     border-top: none;
     display: block;
     border-bottom-right-radius: 20px;
@@ -403,11 +469,11 @@
     width: 200px;
 }
 .bag{
-    border: solid;
+    /* border: solid; */
     border-left: none;
-    border-right: dashed;
+    border-right: dashed #F7C83C;
     border-bottom: none;
-    border-top: dashed;
+    border-top: dashed #F7C83C;
     display: block;
     /* border-bottom-right-radius: 20px; */
     border-bottom-left-radius: 20px;
@@ -421,7 +487,7 @@
     display: flex;
     margin: auto;
     /* margin: 2px 10px; */
-    border: solid;
+    /* border: solid; */
     align-items: center;
     font-size: 25px;
     font-weight: bolder;
@@ -438,7 +504,7 @@
 .year2{
     display: flex;
     margin: auto;
-    border: solid;
+    /* border: solid; */
     align-items: center;
     font-size: 14px;
     /* font-weight: bolder; */
@@ -446,13 +512,14 @@
     height: 30px;
 }
 .normalmain{
-    border: solid;
+    /* border: solid; */
     height: 1950px;
+    background-color: #5D21D1;
     
     /* display: flex; */
 }
 .normal{
-    border: solid;
+    /* border: solid; */
     height: 100px;
     width: 900px;
     display: flex;
@@ -461,6 +528,7 @@
     margin-top: 50px;
     gap: 10px;
     justify-self: center;
+    background-color: #5D21D1;
 }
 .nor{
     /* display: flex; */
@@ -468,6 +536,7 @@
     /* text-align: center;
     justify-content: center; */
     font-weight: bolder;
+    color: white;
 }
 .co{
     /* display: flex; */
@@ -475,9 +544,10 @@
     /* text-align: center;
     justify-content: center; */
     font-weight: bolder;
+    color: #F7C83C;
 }
 .today{
-    border: solid;
+    /* border: solid; */
     width: 650px;
     height: 70px;
     display: flex;
@@ -491,9 +561,10 @@
     font-size: 18px ;
     /* margin-top: 30px; */
     align-self: center;
+    color: gray;
 }
 .semester1{
-    border: solid;
+    /* border: solid; */
     /* width: 160px; */
     border-radius: 30px;
     display: flex;
@@ -503,6 +574,8 @@
     margin-top: 30px;
     height: 50px;
     width: 170px;
+    background-color: #F7C83C;
+    /* color: #5D21D1; */
 }
 #sem1{
     font-weight: bolder;
@@ -512,7 +585,7 @@
     text-decoration: none;
 }
 .syllabus{
-    border: solid;
+    border: solid #F7C83C;
     display: flex;
     margin-top: 70px;
     height: 600px;
@@ -522,20 +595,21 @@
     border-radius: 25px;
 }
 .normalcse{
-    border: solid;
+    /* border: solid; */
     width:500px ;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 .gitacse{
-    border: solid;
+    /* border: solid; */
     width:500px ;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-radius: 20px;
+    background-color: white;
 }
 .nch{
-    border: solid;
+    /* border: solid; */
     height: 100px;
     border-top-left-radius: 20px;
 }
@@ -548,7 +622,7 @@
     width: 50px;
 }
 .nc{
-    border: solid;
+    /* border: solid; */
     height: 60px;
     display: flex;
     /* justify-content: center; */
@@ -562,6 +636,14 @@
     font-weight: bolder;
     margin: 40px 30px;
     font-size: 40px;
+    color: white;
+}
+.gp{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 40px 30px;
+    font-size: 40px;
+    color: #F7C83C;
 }
 .math{
     font-weight: bolder;
@@ -569,7 +651,7 @@
     line-height:1;
 }
 .semestera{
-    border: solid;
+    /* border: solid; */
     /* width: 160px; */
     border-radius: 30px;
     display: flex;
@@ -579,6 +661,7 @@
     margin-top: 110px;
     height: 50px;
     width: 170px;
+    background-color: #F7C83C;
 }
 #apl{
     font-weight: bolder;
@@ -589,15 +672,17 @@
     /* margin-top: 90px; */
 }
 .our{
-    border: solid;
+    /* border: solid; */
     width: 110px;
     display: flex;
     margin: auto;
     margin-top: 100px;
+    color: gray;
 }
 .choose{
-    border: solid;
+    /* border: solid; */
     width: 600px;
+    color: #40119A;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -612,7 +697,7 @@
     padding: 10px;
 }
 .explore{
-    border: solid;
+    /* border: solid; */
     width: 850px;
     display: flex;
     margin: auto;
@@ -621,7 +706,7 @@
     text-align: center;
 }
 .smain{
-    border: solid yellow;
+    /* border: solid yellow; */
     height: 410px;
     display: flex;
     width: 950px;
@@ -630,14 +715,15 @@
 
 }
 .swaminarayan{
-    border: solid green;
+    border: solid gray;
+    border-radius: 23px;
     height: 410px;
     /* display: flex; */
     width: 450px;
     margin-right: 30px;
 }
 .swaminarayanimage{
-    border: solid;
+    /* border: solid; */
     height: 200px;
     width: 450px;
 }
@@ -648,13 +734,13 @@
     border-top-right-radius: 20px;
 }
 .swaminarayanexplore{
-    border: solid gray;
+    /* border: solid gray; */
     height: 200px;
     width: 450px;
     /* display: flex; */
 }
 .swaminarayantext{
-    border: solid;
+    /* border: solid; */
     height: 40px;
     width: 440px;
     display: flex;
@@ -669,7 +755,7 @@
     margin-bottom: 30px;
 }
 .swaminarayankalol{
-    border: solid;
+    /* border: solid; */
     height: 40px;
     width: 400px;
     display: flex;
@@ -678,7 +764,7 @@
     gap: 10px;
 }
 .swaminarayancourse{
-    border: solid;
+    /* border: solid; */
     height: 40px;
     width: 400px;
     display: flex;
@@ -701,7 +787,8 @@
     margin: 2px 25px;
 }
 .swarnim{
-    border: solid rgb(23, 0, 128);
+    border: solid gray;
+    border-radius: 23px;
     height: 410px;
     /* display: flex; */
     width: 450px;
@@ -713,17 +800,17 @@
     border-top-right-radius: 20px;
 }
 .swarnimimage{
-    border: solid;
+    /* border: solid; */
     height: 200px;
     width: 450px;
 }
 .swarnimexplore{
-    border: solid;
+    /* border: solid; */
     height: 200px;
     width: 450px;
 }
 .process{
-    border: solid;
+    /* border: solid; */
     height: 30px;
     width: 200px;
     display: flex;
@@ -733,7 +820,8 @@
     justify-content: center;
 }
 .processbold{
-    border: solid;
+    /* border: solid; */
+    color: #40119A;
     height: 90px;
     width: 700px;
     display: flex;
@@ -746,7 +834,7 @@
     
 }
 .follow{
-    border: solid;
+    /* border: solid; */
     height: 30px;
     width: 600px;
     display: flex;
@@ -759,6 +847,7 @@
     border: solid;
     height: 60px;
     width: 250px;
+    color: #40119A;
     /* display: flex; */
     margin: 2px 100px;
     margin-top: 50px;
@@ -784,7 +873,7 @@
     border-radius: 20px;
 }
 .apl{
-    border: solid;
+    /* border: solid; */
     width: 600px;
     height: 60px;
     margin-left: 20px;
@@ -796,7 +885,7 @@
     gap: 10px;
 }
 .fill{
-    border: solid;
+    /* border: solid; */
     width: 600px;
     height: 50px;
     margin-left: 20px;
@@ -806,7 +895,7 @@
     font-weight: bolder
 }
 .smallfontapplication{
-    border: solid;
+    /* border: solid; */
     width: 900px;
     height: 30px;
     margin-left: 20px;
@@ -815,7 +904,7 @@
     margin-left: 20px;
 }
 .follow{
-    border: solid;
+    /* border: solid; */
     height: 30px;
     width: 600px;
     display: flex;
@@ -825,7 +914,7 @@
     justify-content: center;
 }
 .step02{
-    border: solid;
+    /* border: solid; */
     height: 60px;
     width: 250px;
     /* display: flex; */
@@ -853,7 +942,7 @@
     border-radius: 20px;
 }
 .apl{
-    border: solid;
+    /* border: solid; */
     width: 600px;
     height: 60px;
     margin-left: 20px;
@@ -865,7 +954,7 @@
     gap: 10px;
 }
 .steploginbottom{
-    border: solid;
+    /* border: solid; */
     /* width: 160px; */
     border-radius: 30px;
     display: flex;
@@ -875,9 +964,10 @@
     margin-top: 40px;
     height: 50px;
     width: 170px;
+    background-color: #F7C83C;
 }
 .Recommendations{
-    border: solid;
+    /* border: solid; */
     display: flex;
     text-align: center;
     justify-content: center;
@@ -889,16 +979,16 @@
     font-weight: bolder;
 }
 .portfolio{
-    border: solid;
-    height: 1500px;
+    /* border: solid; */
+    height: 2200px;
     margin-top: 70px;
-    display: flex;
+    /* display: flex; */
     gap: 15px;
     width: 1200px;
     margin: auto;
 }
 .ptop{
-    border: solid;
+    /* border: solid; */
     display: flex;
     width: 1150px;
     height: 330px;
@@ -912,33 +1002,32 @@
     border-radius: 20px;
 }
 .icon{
-    border: solid;
+    /* border: solid; */
     height: 60px;
     display: flex;
 }
 .photo{
-    border: solid;
+    /* border: solid; */
     margin-top: 5px;
     margin-left: 5px;
 }
 .namecom{
-    border: solid;
+    /* border: solid; */
     width: 200px;
     height: 60px;
     align-items: center;
     text-justify: auto;
 }
 .name{
-    font-size: 15px;
-    /* font-weight: bolder; */
-    /* display: inline-block; */
-}
-.company{
-    display: flex;
+    font-size: 20px;
 }
 .details{
-    border: solid;
-    height: 160px;
+    /* border: solid; */
+    height: 140px;
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
 }
 .view{
     border: solid;
@@ -971,4 +1060,130 @@
     width: 400px;
     margin-top: 20px;
     border-radius: 20px;
+}
+.footer{
+    /* border: solid rgb(0, 255, 0); */
+    height: 700px;
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    align-content: center;
+    background-color: #0A0E1B;
+}
+.ffirst{
+    /* border: solid; */
+    height: 700px;
+    width: 300px;
+    margin-left: 20px;
+}
+.fcoding{
+    /* border: solid; */
+    height: 80px;
+    margin-top: 5px;
+}
+.contact{
+    /* border: solid; */
+    height: 130px;
+    color: white;
+}
+.map{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#follow{
+    color: white;
+}
+.link{
+    /* border: solid; */
+    text-decoration: none;
+    gap: 5px;
+}
+.fsecond{
+    /* border: solid; */
+    height: 700px;
+    width: 300px;
+}
+.fthird{
+    /* border: solid; */
+    height: 700px;
+    width: 315px;
+}
+.ffourth{
+    /* border: solid; */
+    height: 700px;
+    width: 300px;
+    
+}
+.eng{
+    /* border: solid; */
+    height: 100px;
+    font-weight: bolder;
+    font-size: 30px;
+    display: flex;
+    /* justify-content: center; */
+    margin-left:30px;
+    align-items: center;
+    color: white;
+}
+.os{
+    /* border: solid; */
+    height: 100px;
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    /* justify-content: center; */
+    margin-left:30px;
+    align-items: center;
+    color: gray;
+}
+.Interest{
+    /* border: solid; */
+    height: 80px;
+    color: gray;
+    width: 200px;
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    /* margin: auto; */
+    align-items: center;
+}
+.Interest1{
+    /* border: solid; */
+    height: 180px;
+    width: 200px;
+    color: gray;
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    /* margin: auto; */
+    align-items: center;
+}
+
+.Interest2{
+    color: gray;
+    /* border: solid; */
+    height: 220px;
+    width: 200px;
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    /* margin: auto; */
+    align-items: center;
+}
+.dtd{
+    border: solid;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    font-weight: bolder;
+    font-size: 30px;
 }
