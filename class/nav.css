@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+}
+.nav{
+    background-color: blue;
+    border: solid;
+    display: flex;
+    justify-content:space-around;
+}
+[class]{
+    /* border: solid; */
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    right: 5%;
+}
+.right{
+    width: 20%;
+    gap: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    position: relative;
+    left: 10%;
+}
+.home{
+    width: 20%;
+    gap: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    
+}
+a{
+    color: rgb(255, 255, 255);
+    gap: 4%;
+    text-decoration: none;
+}
+.right a{
+    background: yellow;
+    border-radius: 20%;
+    padding:4% ;
+    width: 20%;
+    color: black;
+    border: solid white;
+}
+
+
+.nav2{
+    display: flex;
+    border: solid red;
+    width: 98vw;
+    height: 100vh;
+}
+.logohome{
+    background-color: rgb(41, 40, 40);
+    height: 100vh;
+    color: white;
+    width: 20vw;
+}
+.text{
+    overflow: auto;
+    width: 85vw;
+}
+.logohome a{
+     font-weight: bolder;
+     font-size: 40px;
+    color: rgb(243, 236, 236);
+}
+ul{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 10%;
+    list-style: none;
+}
+.imagelogo{
+    border: solid green;
+    height: 10%;
+    width: 6vw;
+    border-radius: 50%;
+    background-image: linear-gradient(to right,red,green,blue);
+}
+.imagelogo img{
+    height: 100%;
+    /* width: 40%; */
+}
+p{
+    margin-left: 20px;
+}
