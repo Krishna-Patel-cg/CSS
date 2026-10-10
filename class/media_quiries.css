@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ================  css normal ============ */
+
+
+[class] {
+    /* border: solid black; */
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.nav {
+    background-color: rgb(80, 195, 230);
+    gap: 10vw;
+    justify-content: center;
+    height: 5vw;
+    display: flex;
+}
+
+.last {
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    display: flex;
+    width: 15vw;
+}
+
+button {
+    border-radius: 10px;
+    background-color: yellow;
+    gap: 2px;
+    height: 2vw;
+    width: 5vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+.middle ul {
+    font-size: 1.5vw;
+    gap: 40px;
+    list-style: none;
+    display: flex;
+}
+
+.last ul {
+    list-style: none;
+    display: flex;
+}
+
+.onhover {
+    display: none;
+    border: solid rgb(243, 9, 9);
+    width: 5vw;
+    height: 2vw;
+    margin-right: 2vw;
+    margin-top: 1vw;
+}
+
+.hoverlist {
+    display: block;
+    position: absolute;
+    margin-top: 5vw;
+    gap: 5vw;
+    margin-right: 2vw;
+}
+
+.hoverlist ul {
+    list-style: none;
+}
+
+/* =================  media queries ============ */
+@media all and (max-width:600px) {
+    .middle {
+        display: none;
+    }
+
+    .nav {
+        gap: 0vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .last {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 2vw;
+    }
+
+    .onhover {
+        margin-right: 2vw;
+    }
+    .onhover{
+        
+        display: block;
+    }
+    .hoverlist{
+        border: none;
+        position: relative;
+        right: 10vw;
+        display: none;
+    }
+    a:hover{
+        color: white;
+        background-color: red;
+    }
+    .onhover:hover .hoverlist {
+        display: block;
+    }
+}
