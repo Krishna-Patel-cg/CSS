@@ -1,0 +1,120 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    [class] {
+        /* border: solid; */
+    }
+
+    .main {
+        height: 200px;
+    }
+
+    .main img {
+        float: right;
+        float: ;
+    }
+
+    .para2 {
+        /* clear: right; */
+        clear: both;
+    }
+
+    /* -----------------Horizantal navigation-------------------- */
+    .nav {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav li {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .nav a {
+        display: block;
+        padding: 10px;
+        background: #ddd;
+        text-decoration: none;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .nav-container {
+        width: 500px;
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+
+    .p1 {
+        font-size: 5mm;
+    }
+
+    .p2 {
+        font-size: 5cm;
+    }
+
+    .p3 {
+        font-size: 5px;
+    }
+
+    .float {
+        display: flex;
+        border: solid red;
+        width: 100vw;
+        height: 50vw;
+    }
+
+    .divinner1 {
+        min-width: 50%;
+        font-size: 1.5rem;
+        /* border: solid blue; */
+        width: 100vw;
+        height: 50vw;
+
+    }
+
+    @media screen and (max-width: 600px) {
+        .divinner1 {
+            /* display: flex; */
+            width: 100vw;
+            background-color: red;
+            height: 500vw;
+        }
+
+        p {
+            color: white
+        }
+
+        .img {
+            width: 100vw;
+            height: 50vw;
+            position: relative;
+            top: 10vw;
+        }
+    }
+
+    .max {
+        border: solid green;
+        height: 50vw;
+        width: 50vw;
+        max-width: 50%;
+        min-width: 50%;
+    }
+
+    html {
+        font-size: 20px;
+    }
+
+    .divinner1 p {
+        font-size: 1.1em;
+    }
+
+    .img {
+        height: 20vw;
+        width: 40vw;
+    }
