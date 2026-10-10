@@ -1,0 +1,80 @@
+.div3dmain{
+  height: 100px;
+  width: 150px;
+  background-color: red;
+  animation-name: spin-circle;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transition: all .5s ease-in;
+  animation-delay: 4s;
+}
+.div3d{
+
+}
+@keyframes spin-circle{
+    0%{transform: translateX(0px);
+    }
+    25%{
+        transform: translatex(1280px);
+        background-color: blue;
+        /* rotate: 10deg; */
+        /* transform: translateY(200px); */
+    }
+    50%{
+        transform: translate(1280px,630px);
+        /* background-color: rgb(0, 255, 255); */
+        background-image: url(natureimage1.jpg);
+        background-size: cover;
+        /* transform: translateY(200px); */
+    }
+    75%{
+        transform: translate(-10px,630px);
+        background-color: blue;
+        /* rotate: 20deg; */
+        /* transform: translateY(200px); */
+    }
+    100%{
+        transform: translate(px,0px);
+        background-color: pink;
+        /* rotate: -20deg; */
+    }
+}
+.border{
+    animation-name: spin-border;
+    border: dashed;
+    width: 0px;
+    height: 700px;
+    animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transition: all .5s ease-in;
+  animation-delay: 4s;
+}
+@keyframes spin-border{
+    0%{transform: translateX(0px);
+    }
+    25%{
+        transform: translatex(1280px);
+        /* rotate: 180deg; */
+        /* background-color: blue; */
+        /* rotate: 10deg; */
+        /* transform: translateY(200px); */
+    }
+    50%{
+        transform: translate(1280px,630px);
+        /* background-color: rgb(0, 255, 255); */
+        background-image: url(natureimage1.jpg);
+        background-size: cover;
+        /* transform: translateY(200px); */
+    }
+    75%{
+        transform: translate(-10px,630px);
+        /* background-color: blue; */
+        /* rotate: 20deg; */
+        /* transform: translateY(200px); */
+    }
+    100%{
+        transform: translate(px,0px);
+        /* background-color: pink; */
+        /* rotate: -20deg; */
+    }
+}
