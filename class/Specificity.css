@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    border: solid;
+}
+.main p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+p{
+    font-size: 100px ;
+}
+#class{
+    font-size: 10px;
+}
