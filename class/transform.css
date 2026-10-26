@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+[class]{
+    border: solid;
+}
+.main{
+    /* rotate: 45deg;
+    transform: translate(60px,90px);
+    /* transform: translate3d(60px,30px,40px); */
+    /* transform: rotate(18deg); */
+    /*transform-origin: center;
+    
+    /* transform: scaleX(1.5); */
+    /* transform: skew(20deg); */
+    border: solid;
+    width: 10vw;
+    /* transform: matrix(1,1,0,1,5,5); */
+}
+.maindiv{
+    display: flex;
+    margin-top: 60px;
+}
+
+.div3dmain{
+    perspective: 500px;
+    border: solid green;
+    margin: auto;
+    width: 200px;
+    height: 20vw;
+}
+.div3d{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* transform: translate3d(10px,10px,4px); */
+    /* transform: scale3d(1.3,2,5) rotatey(45deg); */
+    transform: scale3d(1.3,2,5) rotate3d(1,1,1,45deg);
+}
+.div3d:hover{
+    rotate: 270deg;
+    background-color: green;
+    color: white;
+}
+
+.div4dmain{
+    perspective: 500px;
+    border: solid rgb(9, 0, 128);
+    margin: auto;
+    width: 200px;
+    height: 20vw;
+}
+.div4d{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* transform: translate3d(10px,10px,4px); */
+    transform: scale3d(1.3,2,5) rotatex(45deg);
+}
+
+.div5dmain{
+    perspective: 500px;
+    border: solid rgb(230, 160, 11);
+    margin: auto;
+    width: 200px;
+    height: 20vw;
+}
+.div5d{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* transform: translate3d(10px,10px,4px); */
+    transform: scale3d(1.3,2,5) rotatez(45deg);
+}
+
