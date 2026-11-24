@@ -1,0 +1,48 @@
+.div{
+    height:20vw;
+    width:20vw;
+    background-color: rgb(255, 0, 0);
+    clip-path:ellipse(50% at 50% 0%)
+}
+
+.div1{
+    height:5vw;
+    width:5vw;
+    background-color: rgb(52, 227, 12);
+    clip-path:circle(50% at 50% 50%)
+}
+.div2{
+    border:solid;
+    height:5vw;
+    width:5vw;
+    position:relative;
+    /* display:flex; */
+}
+.trangle1{
+  height:5vw;
+  position:absolute;
+    width:5vw;
+    background-color: rgb(198, 227, 12);
+    clip-path: polygon(0% 0%, 50% 50%, 100% 0%)  
+}
+.trangle2{
+  height:5vw;
+    width:5vw;
+    position:absolute;
+    background-color: rgb(23, 227, 12);
+    clip-path: polygon(0% 0%, 50% 50%, 0% 100%)  
+}
+.trangle3{
+  height:5vw;
+  position:absolute;
+    width:5vw;
+    background-color: rgb(220, 12, 227);
+    clip-path: polygon(100% 0%, 50% 50%, 100% 100%)
+}
+.trangle4{
+  height:5vw;
+  position:absolute;
+    width:5vw;
+    background-color: rgb(69, 12, 227);
+    clip-path: polygon(0% 100%, 50% 50%, 100% 100%)  
+}
